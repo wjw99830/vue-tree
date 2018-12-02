@@ -3,17 +3,17 @@ Treeview for Vue 2.3.0+
 # Install
 > npm i vue-w-tree
 # Example
->> ```
->> <w-tree
->>   :model="treeModel"
->>   allowUnselect
->>   multiSelect
->>   :selected-nodes.sync="mySelectedNodes"
->>   @select="currentSelected = $event"
->>   @unselect="log('unselected a node')">
->>   <span scoped-slot="{ node }">{{ node.name }}</span>
->> </w-tree>
->> ```
+> ```
+> <w-tree
+>   :model="treeModel"
+>   allowUnselect
+>   multiSelect
+>   :selected-nodes.sync="mySelectedNodes"
+>   @select="currentSelected = $event"
+>   @unselect="log('unselected a node')">
+>   <span scoped-slot="{ node }">{{ node.name }}</span>
+> </w-tree>
+> ```
 # APIs
 + Props:
    * `model: Array<Node> = []`: your data that expected to display a tree; **Note that a branch data must has a filed named children typeof `Array<Node>` like `{ name: 'myBranch', children: [node1, node2] }`**
