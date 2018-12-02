@@ -1,0 +1,27 @@
+{
+  "name": "vue-w-tree",
+  "version": "1.0.1",
+  "description": "Treeview for Vue 2.3.0+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjw99830/vue-treeview.git"
+  },
+  "keywords": [
+    "tree",
+    "treeview",
+    "vue",
+    "treecontrol",
+    "vue-treeview",
+    "vue-tree"
+  ],
+  "author": "wjw",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wjw99830/vue-treeview/issues"
+  },
+  "homepage": "https://github.com/wjw99830/vue-treeview#readme"
+}
