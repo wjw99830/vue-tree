@@ -3,7 +3,7 @@ Treeview for Vue 2.3.0+
 # Install
 > npm i vue-w-tree
 # Example
-```
+>```
 <w-tree
   :model="treeModel"
   allowUnselect
