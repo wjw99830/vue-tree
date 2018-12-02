@@ -11,7 +11,7 @@ Treeview for Vue 2.3.0+
 >   :selected-nodes.sync="mySelectedNodes"
 >   @select="currentSelected = $event"
 >   @unselect="logout('unselected a node')">
->   <span scoped-slot="{ node }">{{ node.name }}</span>
+>   <span slot-scope="{ node }">{{ node.name }}</span>
 > </w-tree>
 > ```
 # APIs
