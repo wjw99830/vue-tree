@@ -3,16 +3,16 @@ Treeview for Vue 2.3.0+
 # Install
 > npm i vue-w-tree
 # Example
- ```
- <w-tree
-   :model="treeModel"
-   allowUnselect
-   multiSelect
-   :selected-nodes.sync="mySelectedNodes"
-   @select="currentSelected = $event"
-   @unselect="log('unselected a node')">
-   <span scoped-slot="{ node }">{{ node.name }}</span>
- </w-tree>
+>> ```
+>> <w-tree
+>>   :model="treeModel"
+>>   allowUnselect
+>>   multiSelect
+>>   :selected-nodes.sync="mySelectedNodes"
+>>   @select="currentSelected = $event"
+>>   @unselect="log('unselected a node')">
+>>   <span scoped-slot="{ node }">{{ node.name }}</span>
+>> </w-tree>
 >> ```
 # APIs
 + Props:
