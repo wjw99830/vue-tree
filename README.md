@@ -4,7 +4,7 @@ Treeview for Vue 2.3.0+
 > npm i vue-w-tree
 # APIs
 + Props:
-   * `model: Array<Node> = []`: your data that expected to display a tree; **Note that a branch data must has a filed named children typeof `Array<Node>` like `{ name: 'myBranch', children: [] }`**
+   * `model: Array<Node> = []`: your data that expected to display a tree; **Note that a branch data must has a filed named children typeof `Array<Node>` like `{ name: 'myBranch', children: [node1, node2] }`**
    * `multiSelect: Boolean = false`: Toggle that select nodes multiply;
    * `allowUnselect: Boolean = false`: Toggle that unselect operation;
    * `selected-node: Node = null`: Bind that your selected node data. That's means if you select a node like `{ name: "I'm a node" }`, the    selected-node will keep the same reference of the node, Please use it with `.sync` like `:selected-node.sync="mySelectedNode"`;
