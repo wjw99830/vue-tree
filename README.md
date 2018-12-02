@@ -26,5 +26,7 @@ Treeview for Vue 2.3.0+
    * `unselect(node: Node): void`: a function accept the unselective node; Only effective when `allowUnselect` set;
 + Util:
    * `hasLeaf(tree: Array<Node>): Boolean`: you can use it via `import { hasLeaf } from 'vue-w-tree'` to check whether a tree has leaf(if    it may has only branches);
++ Style:
+   * write the css for css-class `w-tree-leaf-selected` to show the selected style;
 # To be Fixed:
 To show the selected style, there must be a prop either `selected-node` or `selected-nodes`;
