@@ -1,6 +1,6 @@
 {
   "name": "vue-w-tree",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Treeview for Vue 2.3.0+",
   "main": "index.js",
   "scripts": {
