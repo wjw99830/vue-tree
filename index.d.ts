@@ -1,0 +1,1 @@
+export function hasLeaf(tree: any[]): boolean
